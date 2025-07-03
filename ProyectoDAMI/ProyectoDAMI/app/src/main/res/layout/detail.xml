@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cafe_gris"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/titleDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="Details"
+        android:textColor="@color/negro"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/arrowleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="-24dp"
+        android:src="@drawable/ic_arrowleft" />
+
+    <ImageView
+        android:id="@+id/heartlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-23dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/ic_heartlike" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_marginTop="-50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cáfe Mocha"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="-70dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ice/Hot"
+        android:layout_marginStart="13dp"
+        android:background="plateado"
+        android:layout_marginTop="1dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delivery"
+        android:layout_gravity="right"
+        android:layout_marginEnd="140dp"
+        android:layout_marginTop="-35dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coffegranito"
+        android:layout_gravity="right"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="-45dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/milk"
+        android:layout_gravity="right"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="-44dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star"
+        android:layout_marginStart="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.8"
+        android:textColor="@color/black"
+        android:layout_marginTop="-20dp"
+        android:layout_marginStart="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(230)"
+        android:layout_marginTop="-15dp"
+        android:textSize="8dp"
+        android:layout_marginStart="57dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/flecha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textSize="18dp"
+        android:layout_marginStart="11dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Un capuccino es una bebida de aproximadamente 150 ml(5oz), con 25 ml de café espresso y 85 ml de leche fresca"
+        android:layout_marginStart="11dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/small"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/medium"
+        android:layout_marginTop="-41dp"
+        android:layout_marginStart="140dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/large"
+        android:layout_marginTop="-43dp"
+        android:layout_marginStart="270dp"
+        />
+
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$4.53"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="11dp"
+            android:textColor="@color/cafe"/>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-43dp"
+        android:backgroundTint="@color/purple_500"
+        android:padding="2dp"
+        android:text="Comprar"
+        android:textColor="@android:color/white" />
+    <!-- Ajustar constraints o márgenes según el layout padre -->
+
+
+
+
+
+
+</LinearLayout>
